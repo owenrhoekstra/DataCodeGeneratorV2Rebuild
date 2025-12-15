@@ -4,21 +4,6 @@ import Parentbuttonconfigurations from './components/parentbuttonconfigurations.
 
 <template>
   <Parentbuttonconfigurations />
-  <form name="Requests" data-netlify="true">
-    <input type="hidden" name="form-name" value="Requests">
-    <p>
-      <label>Errors<input type="text" name="error" /></label>
-    </p>
-    <p>
-      <label>Feature Requests<input type="text" name="features" /></label>
-    </p>
-    <p>
-      <label>Other Comments<input type="text" name="comments" /></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form>
 </template>
 
 <style scoped>
