@@ -4,7 +4,7 @@ import Parentbuttonconfigurations from './components/parentbuttonconfigurations.
 
 <template>
   <Parentbuttonconfigurations />
-  <form name="Requests" netlify>
+  <form name="Requests" data-netlofy="true">
     <p>
       <label>Errors<input type="text" name="error" /></label>
     </p>
